@@ -11,7 +11,7 @@ public class SieveOfEras {
     for(int i=2; i < limit;i++) {
       allNumbers.add(i);
     }
-    System.out.println("Added numbers");
+    //System.out.println("Added numbers");
     for(int i = 0; i < Math.sqrt(limit-2); i++) {
       if(allNumbers.get(i) == 0) {
         continue;
@@ -27,14 +27,14 @@ public class SieveOfEras {
           k = j * l++;
         }
     }
-    System.out.println("Finished");
+    //System.out.println("Finished");
     for(int i=0; i < allNumbers.size(); i++) {
       if(!allNumbers.get(i).equals(0)) {
         //allNumbers.remove(i--);
         returnNumbers.add(allNumbers.get(i));
       }
     }
-    System.out.println("Returned");
+    //System.out.println("Returned");
     return returnNumbers;
   }
 }

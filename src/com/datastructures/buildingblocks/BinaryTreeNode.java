@@ -24,7 +24,5 @@ public class BinaryTreeNode {
   }
   public BinaryTreeNode(Object data) {
     this.data = data;
-    this.left = new BinaryTreeNode(null);
-    this.right = new BinaryTreeNode(null);
   }
 }

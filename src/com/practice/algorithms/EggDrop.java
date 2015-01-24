@@ -55,7 +55,7 @@ public class EggDrop {
     EggDrop ed = new EggDrop();
     int floors = 1000;
     int eggs = 7;
-    //System.out.println("Recur: " + ed.eggDropRecursion(eggs, floors));
+    System.out.println("Recur: " + ed.eggDropRecursion(eggs, floors));
     System.out.println("DP: " + ed.eggDrop(eggs, floors));
   }
 }

@@ -19,6 +19,7 @@ public class VariousSwaps {
     x = x ^ y;
     y = x ^ y;
     x = x ^ y;
+    System.out.println("After swapping: x is " + x + " and y is " + y);
   }
   
   public void checkAndSwapWithOutTempUsingXor(int x, int y) {
@@ -28,5 +29,10 @@ public class VariousSwaps {
       x = x ^ y;
     }
     System.out.println("After swapping: x is " + x + " and y is " + y);
+  }
+  
+  public void threadSwap(int x, int y) {
+    Thread thread = new Thread();
+    thread.start();
   }
 }
