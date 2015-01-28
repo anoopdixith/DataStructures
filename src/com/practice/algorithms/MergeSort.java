@@ -1,5 +1,12 @@
 package com.practice.algorithms;
 
+/*
+ * 2,3,4,5,6,(12/5)
+ * 
+ * 
+ * 
+ */
+
 public class MergeSort {
   int[] arr;
   int[] tempArr;
